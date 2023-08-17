@@ -1,0 +1,27 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#createUser-form, #loginUser-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    height: auto;
+    gap: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
